@@ -1,0 +1,11 @@
+errors: ['{"type": "error", "message": "Reconnecting... 2/5 (exceeded retry limit, last status: 429 Too Many Requests)"}']
+{"cond": "default", "task": "N01_median", "rep": 1, "passed": 1, "subtests_passed": 2, "total_tokens": 87741, "cached_input_tokens": 71680, "est_cost_usd": 0.04229, "model_calls": 5, "compactions": 0, "wall_s": 117.3, "limit_error": "", "retries": 1, "rl_primary_used_pct": 24.0}
+errors: ['{"type": "error", "message": "Reconnecting... 2/5 (exceeded retry limit, last status: 429 Too Many Requests)"}', '{"type": "error", "message": "Reconnecting... 3/5 (exceeded retry limit, last status: 429 Too Many Requests)"}', '{"type": "error", "message": "Reconnecting... 4/5 (exceeded retry limit, last status: 429 Too Many Requests)"}']
+{"cond": "early25k", "task": "N01_median", "rep": 1, "passed": 1, "subtests_passed": 2, "total_tokens": 72142, "cached_input_tokens": 60288, "est_cost_usd": 0.03227, "model_calls": 4, "compactions": 0, "wall_s": 228.6, "limit_error": "", "retries": 3, "rl_primary_used_pct": 27.0}
+errors: ['{"type": "error", "message": "Reconnecting... 2/5 (exceeded retry limit, last status: 429 Too Many Requests)"}']
+{"cond": "default", "task": "N02_duration", "rep": 1, "passed": 1, "subtests_passed": 3, "total_tokens": 66884, "cached_input_tokens": 57472, "est_cost_usd": 0.02773, "model_calls": 4, "compactions": 0, "wall_s": 114.7, "limit_error": "", "retries": 1, "rl_primary_used_pct": 27.0}
+{"cond": "early25k", "task": "N02_duration", "rep": 1, "passed": 1, "subtests_passed": 3, "total_tokens": 78111, "cached_input_tokens": 59136, "est_cost_usd": 0.04645, "model_calls": 5, "compactions": 1, "wall_s": 74.7, "limit_error": "", "retries": 0, "rl_primary_used_pct": 29.0}
+quota flag, stopping chain
+CHAIN_DONE exp=/workspace/work/tig/012-codex-early-vs-late-compaction cond=early25k rep=1 thread=model_auto_compact_token_limit=25000 all_pass_rc=1 SUMMARY 3/14 passing
+{"cond": "default", "task": "N03_csv", "rep": 1, "passed": 1, "subtests_passed": 4, "total_tokens": 87480, "cached_input_tokens": 78464, "est_cost_usd": 0.03272, "model_calls": 5, "compactions": 0, "wall_s": 74.0, "limit_error": "", "retries": 0, "rl_primary_used_pct": 29.0}
+ALL_DONE 1791987532

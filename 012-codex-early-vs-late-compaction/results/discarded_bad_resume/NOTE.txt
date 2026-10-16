@@ -1,0 +1,1 @@
+First attempt (2026-10-14 ~14:10 UTC): chain.sh read thread_id from the wrong CSV column, so every turn started a fresh session instead of resuming. 5 turns ran (both arms). Kept for transparency, excluded from analysis.

@@ -1,0 +1,1 @@
+Rep 2 chains (started 14:33 UTC) were cut off at 14:45:35 UTC when the sandbox VM restarted and killed all background processes; the work dirs in /tmp were lost, so these sessions could not be continued. default r2 completed 6 turns, early25k r2 completed 7 turns (last turn's raw stream is partial). Rows kept here; excluded from chain totals; a fresh rep 3 was run instead.

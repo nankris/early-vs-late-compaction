@@ -1,0 +1,3 @@
+WARNING: proceeding, even though we could not create PATH aliases: operation would block
+2026-10-14T14:54:00.404210Z ERROR codex_models_manager::manager: failed to load models cache: EOF while parsing a value at line 1 column 0
+2026-10-14T14:54:04.781730Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out
